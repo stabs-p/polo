@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en" style=" overflow-y: scroll;" >  
+    <head>
+    <title>Illpolo.com</title>
+    <meta name="Description" content="Reporting on High School water polo in Illinois since 2003">
+    <meta name="theme-color" content="#cce6ff" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/images/icon-512.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/scripts/w3.css" type="text/css"/>
+<link rel="apple-touch-icon" href="/images/test.png.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script async type='text/javascript' src="scripts/newjavascript.js"></script>
+    <script type='text/javascript' src='app.js'></script>
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif; font-size:18px;}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+p {margin-top: 0; margin-bottom: 0; font-size: 16px;}
+.team {display:none}
+.match {width:48%; height:36px}
+.w3-container {padding:0px;}
+.footer {position: absolute; bottom:0; margin-left:250px; height:90px; width: 100vw}
+@media only screen and (min-width: 993px) {
+  .footer {
+    width: calc(100vw - 250px);
+  }
+}
+.full {min-height:100vh; padding-bottom:90px;}
+@media only screen and (max-width: 992px) {
+  .full {
+    min-height: calc(100vh - 60px);
+  }
+}
+</style>
+</head>
+<body class="w3-content w3-display-container full" style="max-width:1200px;">
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block  w3-collapse w3-top" style="z-index:3; width:250px;" id="mySidebar" >
+  <div class="w3-container w3-display-container w3-padding" >
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3><b>Illpolo.com</b>
+    
+    </h3>
+    
+  </div>
+  <div >
+    <a href="/index.php" class="w3-bar-item w3-button">Home</a>
+    <a href="#" class="w3-bar-item w3-button">Blog</a>
+    <a href="/scoreboard.php" class="w3-bar-item w3-button">Scoreboard</a>
+    <a href="/standings.php" class="w3-bar-item w3-button">Standings</a> 
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align " id="myBtn">
+    Schedule <i class="fa fa-caret-down"></i>
+    </a>
+        <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+            <a href="week1.php" class="w3-bar-item w3-button">Week 1</a>
+            <a href="week2.php" class="w3-bar-item w3-button">Week 2</a>
+            <a href="week3.php" class="w3-bar-item w3-button">Week 3</a>
+            <a href="week4.php" class="w3-bar-item w3-button">Week 4</a>
+            <a href="week5.php" class="w3-bar-item w3-button">Week 5</a>
+        </div>
+    
+    <a href="rankings.php" class="w3-bar-item w3-button">Rankings</a>
+    <a href="#" class="w3-bar-item w3-button">Ballers</a> 
+  </div>
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  
+  
+</nav>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="w3-main" style="margin-left:250px">
+    <!-- Top header -->
+  <header class="w3-container w3-hide-small w3-hide-medium w3-xlarge">
+    <img src="/images/illpolo2007banner2.gif" alt="Banner" style = "width:100%; height:auto"> 
+  
+  </header>
+    <!-- Top header on small screens -->
+    <header class="w3-bar w3-top w3-hide-large w3-light-blue">
+  <a  class="w3-bar-item w3-button w3-padding w3-left w3-xlarge" onclick="w3_open()"><i class="fa fa-bars w3-xlarge"></i></a>
+  <div href="#home" class="w3-bar-item w3-button w3-wide w3-center w3-xlarge">Illpolo</div>
+  
+    
+  </header>
+    <h4></h4>
+    <div style="margin-top:60px" class="w3-hide-large"> </div>
+    
+</div>
+
+
+
+ </div>
+
+
+
